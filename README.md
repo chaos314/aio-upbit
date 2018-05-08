@@ -22,7 +22,7 @@ pip install aio-upbit
 Usage
 -----
 
-```
+```python
 import asyncio
 from aio_upbit.upbit_rest import UpbitRest
 
@@ -35,7 +35,7 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(task())
 ```
 
-```
+```python
 import asyncio
 from aio_upbit.upbit_ws import UpbitWS
 
