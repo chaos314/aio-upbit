@@ -36,6 +36,9 @@ loop.run_until_complete(task())
 ```
 
 ```
+import asyncio
+from aio_upbit.upbit_ws import UpbitWS
+
 async def task():
     async with UpbitWs() as u:
         response = await u.get_ticker(MARKETS)
