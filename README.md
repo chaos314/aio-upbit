@@ -24,7 +24,7 @@ Usage
 
 ```python
 import asyncio
-from aio_upbit.upbit_rest import UpbitRest
+from aioupbit import UpbitRest
 
 async def task():
     async with UpbitRest(None, None) as u:
@@ -37,7 +37,7 @@ loop.run_until_complete(task())
 
 ```python
 import asyncio
-from aio_upbit.upbit_ws import UpbitWS
+from aioupbit import UpbitWS
 
 async def task():
     async with UpbitWs() as u:
