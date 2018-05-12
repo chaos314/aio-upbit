@@ -1,6 +1,6 @@
 import unittest
 import asyncio
-from aio_upbit.upbit_ws import UpbitWs
+from aioupbit import UpbitWs
 
 MARKET = 'KRW-BTC'
 MARKETS = [MARKET]

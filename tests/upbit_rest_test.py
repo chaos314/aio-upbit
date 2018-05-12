@@ -1,7 +1,7 @@
 import unittest
 import asyncio
 import json
-from aio_upbit.upbit_rest import UpbitRest
+from aioupbit import UpbitRest
 
 MARKET = 'KRW-BTC'
 CURRENCY = 'BTC'
