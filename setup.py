@@ -5,7 +5,7 @@ dependencies = [
     'pyjwt'
 ]
 
-version = '0.9.1'
+version = '1.0.0'
 
 setup(name='aio-upbit',
       version=version,
