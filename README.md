@@ -16,7 +16,7 @@ Installation
 ------------
 
 ```
-pip install aio-upbit
+pip install aioupbit
 ```
 
 Usage
