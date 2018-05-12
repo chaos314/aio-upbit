@@ -1,7 +1,7 @@
 aio-upbit
 =========
 
-This is an unofficial Python wrapper for the Upbit API and the next version of `python-upbit`. I am not affiliated with Upbit. Please use at your own risk.
+This is an unofficial Python wrapper for the Upbit API and the asynchronous version of `python-upbit`. I am not affiliated with Upbit. Please use at your own risk.
 
 Donation
 --------
